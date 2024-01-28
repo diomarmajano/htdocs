@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $("#formRegistro").on("submit", function (event) {
+       
         event.preventDefault();
         var rut = $('#rut').val();
         var RegexFormatoRut = /^\d{7,8}-[k|K|\d]{1}$/;
